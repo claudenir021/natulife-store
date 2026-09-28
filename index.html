@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta
+      name="description"
+      content="NatuLife Store — suplementos, vitaminas, pomadas e produtos de bem-estar com atendimento pelo WhatsApp."
+    />
+    <title>NatuLife Store</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&family=Playfair+Display:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <a class="brand" href="#inicio"
+        ><span>🌿</span>NatuLife <strong>Store</strong></a
+      ><button class="menu-btn" aria-label="Abrir menu">☰</button>
+      <nav class="nav">
+        <a href="#produtos">Produtos</a><a href="#video">Vídeo</a
+        ><a href="#como-comprar">Como comprar</a><a href="#duvidas">Dúvidas</a>
+      </nav>
+      <a
+        class="btn small wa"
+        data-msg="Olá! Vim pela NatuLife Store e quero conhecer os produtos."
+        >WhatsApp</a
+      >
+    </header>
+    <main>
+      <section class="hero" id="inicio">
+        <div>
+          <span class="eyebrow"
+            >Suplementos • Vitaminas • Cuidados corporais</span
+          >
+          <h1>Bem-estar começa com <em>boas escolhas.</em></h1>
+          <p>
+            Conheça produtos selecionados, assista aos vídeos e receba
+            atendimento direto pelo WhatsApp.
+          </p>
+          <div class="actions">
+            <a
+              class="btn wa"
+              data-msg="Olá! Quero conhecer os produtos disponíveis na NatuLife Store."
+              >Ver produtos pelo WhatsApp</a
+            ><a class="btn ghost" href="#produtos">Explorar catálogo</a>
+          </div>
+          <div class="trust">
+            <span>✓ Atendimento personalizado</span
+            ><span>✓ Envio para todo o Brasil</span
+            ><span>✓ Informações do fabricante</span>
+          </div>
+        </div>
+        <article class="feature">
+          <div class="feature-label">Destaque da semana</div>
+          <img src="assets/foto_produto_mercado_livre.jpg" alt="Kit Imunidade" />
+          <div class="feature-body">
+           <span class="pill">Kit Imunidade</span>
+            <h2>Kit Imunidade</h2>
+            <p>Kit com 3 produtos selecionados para complementar sua rotina de cuidados. Consulte disponibilidade, valor e entrega.</p>
+            <a class="btn wa" data-msg="Olá! Quero saber mais sobre o Kit Imunidade, consultar o valor e como comprar.">Consultar pelo WhatsApp</a>
+          </div>
+        </article>
+      </section>
+      <section class="benefits">
+        <article>
+          📲
+          <div>
+            <b>Atendimento rápido</b
+            ><small>Converse diretamente pelo WhatsApp.</small>
+          </div>
+        </article>
+        <article>
+          📦
+          <div>
+            <b>Variedade</b
+            ><small>Suplementos, vitaminas, géis e cuidados pessoais.</small>
+          </div>
+        </article>
+        <article>
+          🔒
+          <div>
+            <b>Compra orientada</b
+            ><small>Tire suas dúvidas antes do pedido.</small>
+          </div>
+        </article>
+      </section>
+      <section class="section" id="produtos">
+        <div class="heading">
+          <div>
+            <span class="eyebrow">Catálogo inicial</span>
+            <h2>Encontre o produto que procura</h2>
+          </div>
+          <input id="search" type="search" placeholder="Buscar produto..." />
+        </div>
+        <div id="filters" class="filters"></div>
+        <div id="grid" class="grid"></div>
+        <div class="catalog">
+          <div>
+            📖
+            <span
+              ><b>Quer ver mais opções?</b
+              ><small
+                >Abra o catálogo completo e depois fale comigo.</small
+              ></span
+            >
+          </div>
+          <a
+            class="btn ghost"
+            href="assets/catalogo-divulgacao-2025.pdf"
+            target="_blank"
+            >Abrir catálogo em PDF</a
+          >
+        </div>
+      </section>
+      <section class="section video" id="video">
+        <div>
+          <span class="eyebrow light">Veja antes de comprar</span>
+          <h2>Conheça nossos produtos em vídeo</h2>
+          <p>
+            Para composição, modo de uso, restrições e demais informações,
+            consulte sempre o rótulo e as orientações do fabricante.
+          </p>
+          <a
+            class="btn wa"
+            data-msg="Olá! Assisti ao vídeo do Colágeno Complex e quero saber o valor e como comprar."
+            >Consultar pelo WhatsApp</a
+          >
+        </div>
+        <div class="phone">
+
+  <div class="video-item">
+    <h3>Colágeno Complex</h3>
+    <video controls playsinline poster="assets/colageno-complex-capa.png">
+      <source src="assets/colageno-complex.mp4" type="video/mp4" />
+    </video>
+  </div>
+
+  <div class="video-item">
+    <h3>Kit NatuLife</h3>
+    <p class="video-price">R$ 99,90</p>
+
+    <video controls playsinline>
+      <source src="assets/video-kit.mp4" type="video/mp4" />
+    </video>
+     <a
+    class="btn mercado-livre"
+   href="https://www.mercadolivre.com.br/kit-propolis-verde-vitamina-d3-resfrimuni-mais/up/MLBU4699194650?pdp_filters=item_id%3AMLB5041970811"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    Comprar no Mercado Livre
+  </a>
+  </div>
+
+</div>
+      </section>
+      <section class="section" id="como-comprar">
+        <span class="eyebrow">Compra simples</span>
+        <h2>Como funciona</h2>
+        <div class="steps">
+          <article>
+            <b>1</b>
+            <h3>Escolha</h3>
+            <p>Veja os produtos e vídeos.</p>
+          </article>
+          <article>
+            <b>2</b>
+            <h3>Converse</h3>
+            <p>Clique no WhatsApp.</p>
+          </article>
+          <article>
+            <b>3</b>
+            <h3>Confirme</h3>
+            <p>Consulte valor e entrega.</p>
+          </article>
+          <article>
+            <b>4</b>
+            <h3>Receba</h3>
+            <p>Finalize e acompanhe o envio.</p>
+          </article>
+        </div>
+      </section>
+      <section class="section faq" id="duvidas">
+        <div>
+          <span class="eyebrow">Perguntas frequentes</span>
+          <h2>Informação clara gera confiança</h2>
+          <p>Esta loja funciona como vitrine e canal de atendimento.</p>
+        </div>
+        <div>
+          <details
+            ><summary>Como faço para comprar?</summary>
+            <p>
+              Escolha um produto e clique no WhatsApp para confirmar valor,
+              pagamento e entrega.
+            </p></details
+          ><details
+            ><summary>Vocês enviam para todo o Brasil?</summary>
+            <p>
+              A disponibilidade e o prazo são confirmados conforme o produto e o
+              CEP.
+            </p></details
+          ><details
+            ><summary>Os produtos substituem orientação médica?</summary>
+            <p>
+              Não. Suplementos não substituem alimentação equilibrada nem
+              orientação profissional.
+            </p></details
+          ><details
+            ><summary>Como saber a composição?</summary>
+            <p>
+              Consulte o rótulo e as informações oficiais do fabricante.
+            </p></details
+          >
+        </div>
+      </section>
+      <section class="cta">
+        <div>
+          <span class="eyebrow light">Atendimento humano</span>
+          <h2>Encontrou algo interessante?</h2>
+          <p>Fale comigo e consulte as opções disponíveis.</p>
+        </div>
+        <a
+          class="btn white wa"
+          data-msg="Olá! Estou na NatuLife Store e quero ajuda para escolher um produto."
+          >Começar atendimento</a
+        >
+      </section>
+    </main>
+    <footer>
+      <div class="brand">🌿 NatuLife <strong>Store</strong></div>
+      <p>
+        Suplementos e produtos de bem-estar. Consulte sempre as informações
+        oficiais do fabricante.
+      </p>
+      <small>© <span id="year"></span> NatuLife Store.</small>
+    </footer>
+    <a
+      class="floating wa"
+      data-msg="Olá! Vim pela NatuLife Store e quero atendimento."
+      >💬</a
+    >
+    <script src="script.js"></script>
+  </body>
+</html>
