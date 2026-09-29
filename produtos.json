@@ -2,6 +2,8 @@
   {
     "id": "kit-natulife",
     "nome": "Kit NatuLife",
+    "descricao": "Kit especial NatuLife com produtos selecionados para saúde e bem-estar",
+    "imagem": "assets/foto_produto_mercado_livre.jpg",
     "preco": "R$ 99,90",
     "video": "assets/video-kit.mp4",
     "linkCompra": "https://www.mercadolivre.com.br/kit-propolis-verde-vitamina-d3-resfrimuni-mais/up/MLBU4699194650?pdp_filters=item_id%3AMLB5041970811",

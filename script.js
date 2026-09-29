@@ -195,6 +195,24 @@ async function carregarProdutosAutomaticos() {
 if (kit) {
   const preco = document.querySelector(".video-price");
 
+  const nome = document.querySelector(".video-title");
+
+if (nome) {
+  nome.textContent = kit.nome;
+}
+
+const descricao = document.querySelector(".video-description");
+
+if (descricao) {
+  descricao.textContent = kit.descricao;
+}
+
+const imagemKit = document.querySelector(".video-item img");
+
+if (imagemKit && kit.imagem) {
+  imagemKit.src = kit.imagem;
+  imagemKit.alt = kit.nome;
+}
   if (preco) {
     preco.textContent = kit.preco;
   }
