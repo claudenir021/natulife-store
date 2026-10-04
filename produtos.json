@@ -8,5 +8,162 @@
     "video": "assets/video-kit.mp4",
     "linkCompra": "https://www.mercadolivre.com.br/kit-propolis-verde-vitamina-d3-resfrimuni-mais/up/MLBU4699194650?pdp_filters=item_id%3AMLB5041970811",
     "ativo": true
+  },
+    
+  {
+    "id": "colageno-complex",
+    "nome": "Colágeno Complex",
+    "descricao": "Suplemento alimentar em cápsulas da linha de cuidados e bem-estar.",
+    "imagem": "assets/colageno-complex.jpg",
+    "preco": "R$ 41,20",
+    "video": "",
+    "linkCompra": "https://www.mercadolivre.com.br/colageno-equilibrio-500mg-60-capsulas/p/MLB25837701?pdp_filters=item_id:MLB6717005934",
+    "ativo": true
+  },
+
+  {
+    "id": "colageno-tipo-2",
+    "nome": "Colágeno Tipo II + Vitamina C",
+    "descricao": "Suplemento alimentar em cápsulas com Colágeno Tipo II e Vitamina C.",
+    "imagem": "assets/colageno-tipo-2.jpg",
+    "preco": "R$ 54,34",
+    "video": "",
+    "linkCompra": "https://www.mercadolivre.com.br/colageno-tipo-2-vitamina-c-500mg-60-capsulas-equilibrio-vital/p/MLB37915778?pdp_filters=item_id:MLB6717017154",
+    "ativo": true
+  },
+
+  {
+    "id": "magnesio-quelado",
+    "nome": "Magnésio Quelado",
+    "descricao": "Opção de magnésio em cápsulas para complementar sua rotina de cuidados.",
+    "imagem": "assets/magnesio-quelado.jpg",
+    "preco": "R$ 25,96",
+    "video": "",
+    "linkCompra": "",
+    "ativo": true
+  },
+
+  {
+    "id": "vitamina-d3",
+    "nome": "Vitamina D3",
+    "descricao": "Suplemento alimentar com Vitamina D3 para complementar sua rotina de cuidados e bem-estar.",
+    "imagem": "assets/vitamina-d3.png",
+    "preco": "",
+    "video": "",
+    "linkCompra": "",
+    "ativo": true
+  },
+
+  {
+    "id": "resfrimuni-mais",
+    "nome": "Resfrimuni Mais",
+    "descricao": "Suplemento alimentar em cápsulas, conforme orientação do fabricante.",
+    "imagem": "assets/resfrimuni-mais.jpg",
+    "preco": "",
+    "video": "",
+    "linkCompra": "",
+    "ativo": true
+  },
+
+  {
+    "id": "zinco-quelato",
+    "nome": "Zinco Quelato",
+    "descricao": "Suplemento alimentar de zinco quelato em cápsulas, conforme orientação do fabricante.",
+    "imagem": "assets/zinco-quelato.jpg",
+    "preco": "",
+    "video": "",
+    "linkCompra": "https://www.mercadolivre.com.br/zinco-60-capsulas-teor-max-12mg-equilibrio-sabor-sem-sabor/p/MLB63201362?pdp_filters=item_id:MLB6717029120",
+    "ativo": true
+  },
+
+  {
+    "id": "extrato-propolis-verde",
+    "nome": "Extrato de Própolis Verde",
+    "descricao": "Extrato de própolis verde 30 ml, conforme orientação do fabricante.",
+    "imagem": "assets/extrato-propolis-verde.jpg",
+    "preco": "",
+    "video": "",
+    "linkCompra": "",
+    "ativo": true
+  },
+
+  {
+    "id": "omega-3",
+    "nome": "Ômega 3",
+    "descricao": "Suplemento alimentar em cápsulas com Ômega 3 para complementar sua rotina de cuidados e bem-estar.",
+    "imagem": "assets/omega-3.jpg",
+    "preco": "",
+    "video": "",
+    "linkCompra": "",
+    "ativo": true
+  },
+    
+
+  {
+    "id": "curcuma-pimenta-negra",
+    "nome": "Cúrcuma + Pimenta Negra",
+    "descricao": "Combinação em cápsulas apresentada no catálogo Natuvel.",
+    "imagem": "assets/curcuma-pimenta-negra.jpg",
+    "preco": "",
+    "video": "",
+    "linkCompra": "",
+    "ativo": true
+  },
+
+  {
+    "id": "cranberry-vitaminas",
+    "nome": "Cranberry + Vitaminas",
+    "descricao": "Cranberry combinado com vitaminas em cápsulas.",
+    "imagem": "assets/cranberry-vitaminas.jpg",
+    "preco": "",
+    "video": "",
+    "linkCompra": "https://www.mercadolivre.com.br/cranberry-equilibrio-60-caps-e-revitalizante-sabor-sem-sabor/p/MLB60093586?pdp_filters=item_id:MLB6717037740",
+    "ativo": true
+  },
+  
+  {
+    "id": "psyllium-laranja-acerola",
+    "nome": "Psyllium Laranja & Acerola",
+    "descricao": "Suplemento alimentar em cápsulas de Psyllium com Laranja e Acerola. Contém 100 cápsulas.",
+    "imagem": "assets/psyllium.jpg",
+    "preco": "",
+    "video": "",
+    "linkCompra": "https://www.mercadolivre.com.br/psyllium-laranja-acerola-500mg-100-capsulas-sabor-sem-sabor/p/MLB42905003?pdp_filters=item_id:MLB4653546349",
+    "ativo": true
+  },
+
+  {
+    "id": "super-gel-30-ervas",
+    "nome": "Super Gel 30 Ervas",
+    "descricao": "Gel massageador para cuidados corporais, conforme orientação do fabricante.",
+    "imagem": "assets/super-gel-30-ervas.jpg",
+    "preco": "",
+    "video": "",
+    "linkCompra": "",
+    "ativo": true
+  },
+
+  {
+    "id": "canela-de-velho",
+    "nome": "Canela de Velho",
+    "descricao": "Pomada massageadora para cuidados corporais, conforme orientações do fabricante.",
+    "imagem": "assets/canela-de-velho.jpg",
+    "preco": "",
+    "video": "",
+    "linkCompra": "https://www.mercadolivre.com.br/pomada-canela-de-velho-150g-dores-musculares-coluna-mentol/p/MLB19629338?pdp_filters=item_id:MLB6717037742",
+    "ativo": true
+  },
+
+  {
+    "id": "sabonete-intimo-bebelo",
+    "nome": "Sabonete Líquido Íntimo Bebelo",
+    "descricao": "Sabonete líquido íntimo Bebelo Tutti Frutti, com ácido láctico. Conteúdo 200 mL.",
+    "imagem": "assets/sabonete-intimo-bebelo.webp",
+    "preco": "",
+    "video": "",
+    "linkCompra": "https://www.mercadolivre.com.br/sabonete-liquido-intimo-bebeloo-tutti-fruti-limpeza-delicada/p/MLB44700562?pdp_filters=item_id:MLB6717017414",
+    "ativo": true
   }
 ]
+  
+
